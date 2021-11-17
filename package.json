@@ -17,15 +17,16 @@
   },
   "dependencies": {
     "@looker/components": "^2.8.9",
-    "@looker/icons": "^1.5.9",
     "@looker/embed-sdk": "^1.6.1",
     "@looker/extension-sdk": "^21.18.1",
     "@looker/extension-sdk-react": "^21.18.1",
+    "@looker/icons": "^1.5.9",
     "@looker/sdk": "^21.18.1",
     "@looker/sdk-rtl": "^21.1.1",
     "@styled-icons/material": "10.34.0",
     "@styled-icons/material-outlined": "10.34.0",
     "@styled-icons/material-rounded": "10.34.0",
+    "graphviz-react": "^1.2.0",
     "lodash": "^4.17.21",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -64,7 +65,12 @@
           "loose": true
         }
       ],
-      ["@babel/plugin-proposal-private-property-in-object", { "loose": true }],
+      [
+        "@babel/plugin-proposal-private-property-in-object",
+        {
+          "loose": true
+        }
+      ],
       [
         "@babel/plugin-transform-react-jsx",
         {

@@ -6,6 +6,6 @@ application: pdt_graph {
   url: "http://localhost:8080/bundle.js"
   # file: "bundle.js
   entitlements: {
-    core_api_methods: ["me"] #Add more entitlements here as you develop new functionality
+    core_api_methods: ["all_lookml_models","graph_derived_tables_for_model"] #Add more entitlements here as you develop new functionality
   }
 }
