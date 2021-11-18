@@ -1,6 +1,6 @@
 # Looker Extension pdt_graph
 
-pdt_graph is a Looker extension using React and JavaScript.
+pdt_graph is a Looker extension Sample Application to show PDT Dependency Graph using React and JavaScript.
 
 ## Getting Started for Development
 
@@ -40,11 +40,10 @@ pdt_graph is a Looker extension using React and JavaScript.
    ```
     project_name: "pdt_graph"
     application: pdt_graph {
-        label: "pdt_graph React/JavaScript extension"
-        url: "http://localhost:8080/bundle.js"
-        entitlements: {
-          core_api_methods: ["me"]
-        }
+    label: "pdt_graph"
+    url: "http://localhost:8080/bundle.js"
+    entitlements: {
+        core_api_methods: ["all_lookml_models","run_inline_query","all_connections","graph_derived_tables_for_view"] #Add more entitlements here as you develop new functionality
     }
    ```
 
@@ -79,7 +78,7 @@ To allow other people to use the extension, build the JavaScript bundle file and
         label: "A Looker React/JavaScript extension"
         file: "bundle.js"
         entitlements: {
-          core_api_methods: ["me"]
+          core_api_methods: ["all_lookml_models","run_inline_query","all_connections","graph_derived_tables_for_view"] #Add more entitlements here as you develop new functionality
         }
     }
    ```
