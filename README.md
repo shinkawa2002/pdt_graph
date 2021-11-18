@@ -1,6 +1,7 @@
 # Looker Extension pdt_graph
 
 pdt_graph is a Looker extension Sample Application to show PDT Dependency Graph using React and JavaScript.
+![image](PDT_Graph.png)
 
 ## Getting Started for Development
 
