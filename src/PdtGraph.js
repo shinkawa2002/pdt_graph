@@ -222,15 +222,15 @@ export const PdtGraph = () => {
     }
 
     if (isConnLoading && isModelLoading) {
-      desc = '初期設定中'
+      desc = 'Initilizing'
     } else if (isModelLoading) {
-      desc = 'モデル設定中'
+      desc = 'Loading models'
     } else if (isPdtLoading) {
-      desc = 'PDT取得中'
+      desc = 'Loading PDTs'
     } else if (!graphText || graphText === "") {
-      desc = 'PDTを選択してください'
+      desc = 'Select PDT name'
     } else {
-      desc = 'コネクション、モデル、PDTを選択してください'
+      desc = 'Choose Connection, Model, PDT'
     }
 
     return (
